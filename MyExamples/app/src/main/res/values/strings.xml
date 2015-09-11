@@ -1,0 +1,32 @@
+<resources>
+  <!-- Menu -->
+  <string name="menu.settings">Configuración</string>
+  <!-- Activity -->
+  <string name="activity.contenido.title">Android Examples</string>
+  <string name="app_name">My Examples</string>
+
+  <string name="hello_world">Hello world!</string>
+  <string name="action_settings">Configuracion</string>
+  <string name="action_search">Buscar</string>
+  <string name="drawer_open">Abrir</string>
+  <string name="drawer_close">Cerrar</string>
+
+  <string name="title_home">Home</string>
+  <string name="title_friends">Friends</string>
+  <string name="title_messages">Friends</string>
+
+
+  <string name="nav_item_home">Home</string>
+  <string name="nav_item_friends">Friends</string>
+  <string name="nav_item_notifications">Messages</string>
+  <!-- navigation drawer item labels  -->
+  <string-array name="nav_drawer_labels">
+    <item>@string/nav_item_home</item>
+    <item>@string/nav_item_friends</item>
+    <item>@string/nav_item_notifications</item>
+  </string-array>
+
+<!-- TODO: Remove or change this placeholder text -->
+  <string name="hello_blank_fragment">Hello blank fragment</string>
+  <string name="title_activity_contenido">ContenidoActivity</string>
+</resources>

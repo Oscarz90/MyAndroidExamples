@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  
+  <!-- Colores App -->
+  <color name="color.primary">#2196F3</color>
+  <color name="color.primary.dark">#1976D2</color>
+  <color name="color.primary.light">#BBDEFB</color>
+  <color name="color.primary.text">#212121</color>
+  <color name="color.primary.icons">#FFFFFF</color>
+
+
+  <!--<color name="color.secondary.text">#727272</color>-->
+  <color name="color.secondary.text">#9E9E9E</color>
+
+  <color name="color.accent">#FFC107</color>
+  <color name="color.divider">#B6B6B6</color>
+
+  <!-- Colors -->
+  <color name="color.orange">#FF5722</color>
+  <color name="color.white">#FFFFFF</color>
+
+
+  
+  <!-- Color Navegacion -->
+  <color name="color.window.background">#FFFFFF</color>
+  <color name="color.navigation.bar">#1976D2</color>
+  
+</resources>
