@@ -1,4 +1,4 @@
-package oms.myexamples.views.adapters;
+package oms.myexamples.views;
 
 import android.content.Context;
 import android.support.v7.widget.RecyclerView;

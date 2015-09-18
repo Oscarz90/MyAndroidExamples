@@ -1,16 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-              android:orientation="horizontal"
-              android:layout_width="match_parent"
-              android:layout_height="72dp">
+<LinearLayout
+  android:id="@+id/lyt"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="72dp"
+  android:clickable="true"
+  android:focusable="true"
+  android:orientation="horizontal"
+  >
+
   <RelativeLayout
     android:layout_width="72dp"
     android:layout_height="72dp"
+    android:gravity="center_vertical"
     android:paddingLeft="16dp"
     android:paddingRight="16dp"
-    android:gravity="center_vertical"
     >
+
     <ImageView
+      android:id="@+id/contenido_row_img_icono"
       android:layout_width="wrap_content"
       android:layout_height="wrap_content"
       android:contentDescription="NAda"
@@ -23,22 +31,26 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     >
+
     <TextView
+      android:id="@+id/contenido_row_txt_titulo"
       android:layout_width="match_parent"
       android:layout_height="match_parent"
       android:layout_weight="50"
       android:gravity="bottom"
       android:text="Tema"
-      android:textSize="@dimen/font.normal"
       android:textColor="@color/color.primary.text"
+      android:textSize="@dimen/font.normal"
       />
+
     <TextView
+      android:id="@+id/contenido_row_txt_descripcion"
       android:layout_width="match_parent"
       android:layout_height="match_parent"
       android:layout_weight="50"
       android:text="Descripcion"
-      android:textSize="@dimen/font.small"
       android:textColor="@color/color.secondary.text"
+      android:textSize="@dimen/font.small"
       />
   </LinearLayout>
 

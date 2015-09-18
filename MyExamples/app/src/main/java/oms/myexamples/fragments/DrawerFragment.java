@@ -20,7 +20,7 @@ import java.util.List;
 
 import oms.myexamples.R;
 import oms.myexamples.entities.NavDrawerItem;
-import oms.myexamples.views.adapters.NavigationDrawerAdapter;
+import oms.myexamples.views.NavigationDrawerAdapter;
 
 /**
  * Created by 430004587 on 04/09/2015.

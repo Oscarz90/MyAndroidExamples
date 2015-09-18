@@ -13,40 +13,18 @@
   <LinearLayout
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    >
+    <android.support.v7.widget.RecyclerView
+      android:id="@+id/contenido_layouts"
+      android:layout_height="match_parent"
+      android:layout_width="match_parent"
+      >
 
-    <include
-      layout="@layout/activity_contenido_titulo"
-      />
-    <include
-      layout="@layout/activity_contenido_row"
-      />
-    <include
-      layout="@layout/activity_contenido_row"
-      />
-    <include
-      layout="@layout/activity_contenido_row"
-      />
-    <include
-      layout="@layout/activity_contenido_row"
-      />
-    <include
-      layout="@layout/activity_contenido_row"
-      />
-    <include
-      layout="@layout/activity_contenido_row"
-      />
-    <include
-      layout="@layout/activity_contenido_row"
-      />
-    <include
-      layout="@layout/activity_contenido_row"
-      />
-    <include
-      layout="@layout/activity_contenido_row"
-      />
-    <include
-      layout="@layout/activity_contenido_row"
-      />
+    </android.support.v7.widget.RecyclerView>
+
   </LinearLayout>
+
+
+
 </LinearLayout>
