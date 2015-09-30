@@ -7,12 +7,11 @@ import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.widget.LinearLayout;
 
 import java.util.ArrayList;
 
 import oms.myexamples.R;
-import oms.myexamples.entities.ContenidoRow;
+import oms.myexamples.entities.ContenidoItem;
 import oms.myexamples.views.adapters.ContenidoAdapter;
 
 public class ContenidoActivity extends AppCompatActivity {
@@ -27,10 +26,11 @@ public class ContenidoActivity extends AppCompatActivity {
     rview=(RecyclerView)findViewById(R.id.contenido_layouts);
     rview.setHasFixedSize(true);
 
-    ArrayList<ContenidoRow> lista =new ArrayList<ContenidoRow>();
+    ArrayList<ContenidoItem> lista =new ArrayList<ContenidoItem>();
 
-    lista.add(new ContenidoRow("Prueba","subPrueba",1));
-    lista.add(new ContenidoRow("Prueba1","subPrueba1",1));
+    lista.add(new ContenidoItem("Framelayout","Ejemplo",1,FrameLayoutActivity.class));
+    lista.add(new ContenidoItem("RelativeLayout","Ejemplo",1,FrameLayoutActivity.class));
+
 
     final ContenidoAdapter adaptador=new ContenidoAdapter(lista);
 
@@ -41,7 +41,8 @@ public class ContenidoActivity extends AppCompatActivity {
     }
 
     rview.setAdapter(adaptador);
-    rview.setLayoutManager(new LinearLayoutManager(this, LinearLayoutManager.VERTICAL,false));
+    rview.setLayoutManager(new LinearLayoutManager(this, LinearLayoutManager.VERTICAL, false));
+
   }
 
   @Override
